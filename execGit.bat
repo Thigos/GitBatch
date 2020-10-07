@@ -27,7 +27,7 @@ goto menu
 
 :opcao2
 set /p dir= Diretorio do Projeto:  
-set /p comm= Comentario: 
+set /p comm= Comentario:
 cd %dir%
 git add .
 git commit -m %comm%
