@@ -31,6 +31,7 @@ set /p comm= Comentario:
 cd %dir%
 git add .
 git commit -m %comm%
+git pull
 git push
 echo Foi :)
 goto menu
